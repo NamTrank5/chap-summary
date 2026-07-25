@@ -35,13 +35,6 @@ pip install torch --index-url https://download.pytorch.org/whl/cu121
 ## Running
 
 Open `nlp_summarizer_project.ipynb` and run all cells top to bottom.
-1. Loads the cleaned BookSum chapter split and samples 40 long chapters.
-2. Loads `facebook/bart-large-cnn` via `AutoModelForSeq2SeqLM`.
-3. Runs both conditions (flat truncation and hierarchical) on each chapter.
-4. Computes ROUGE-1/2/L and a proper-noun entity-recall score.
-5. Runs paired Wilcoxon signed-rank tests comparing the two conditions.
-6. Saves per-chapter results to `summarization_results.csv`.
-
 The first run downloads the BART model (~1.6GB) and the dataset, so an internet
 connection is needed on first execution.
 
