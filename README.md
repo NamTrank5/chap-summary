@@ -7,7 +7,7 @@ input limit: **flat truncation** (summarize only the first 1024 tokens) versus
 each, then summarize the combined summaries). Both are evaluated on chapters
 from the BookSum corpus using `facebook/bart-large-cnn` without fine-tuning.
 
-📄 **Full report:** `reportfinal.pdf` (in the repo root).
+**Full report:** `reportfinal.pdf` (in the repo root).
 
 ## Repository structure
 
