@@ -17,8 +17,9 @@ from the BookSum corpus using `facebook/bart-large-cnn` without fine-tuning.
 ├── requirements.txt
 ├── reportfinal.pdf
 ├── references.bib
-├── nlp_summarizer_project(1)finalfinal2.ipynb    ← the experiment notebook and yes that is the name
-└── summarization_results.csv      
+├── nlp_summarizer_projectfinal2.ipynb    ← the experiment notebook
+├── summarization_results.csv   
+└── summarization_results40chap.csv      
 ```
 
 ## Setup
@@ -39,16 +40,4 @@ The first run downloads the BART model (~1.6GB) and the dataset, so an internet
 connection is needed on first execution.
 
 > **Note.** `N_CHAPTERS` in the data cell controls the sample size (set to 40 but you can change to 8 to get result of the mini version).
-
-## Report
-
-Compile with:
-
-```bash
-pdflatex report.tex
-bibtex report
-pdflatex report.tex
-pdflatex report.tex
-```
-
 Requires `acl.sty` and `acl_natbib.bst` (ACL style files) in the same folder.
