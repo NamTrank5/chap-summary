@@ -1,0 +1,10 @@
+transformers>=5.0.0
+datasets
+evaluate
+rouge_score
+scipy
+numpy
+pandas
+matplotlib
+accelerate
+torch
